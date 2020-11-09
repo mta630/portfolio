@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.appContainer {
+    background-color: #0D1F2D;
+    margin: 0;
+    height: 75em;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    color: #E0AFA0;
+    height: 30%;
+    font-family: 'Arvo', serif;
+    width: 100%
+}
+
+.title div {
+    margin: 1%;
+}
+
+.titleName {
+    font-size: 160%;
+    width: 25%
+}
+
+.siteLinks {
+    font-size: 100%;
+    width: 60%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rest {
+    padding-left: 1em;
+}
+
+.personalLinks {
+    width: 15%;
+    font-size: 140%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+a {
+    color:  #E0AFA0;
+    transition: color .4s ease-out;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #FAF2F0;
+}
+
+.individualLink {
+    transition: all .2s ease-in-out;
+}
+
+.individualLink:hover {
+    cursor: pointer;
+    color: #FAF2F0;
+    padding-top: .2em;
+}
+
+.siteLink {
+    transition: color .4s ease-out;
+}
+
+.siteLink:hover {
+    cursor: pointer;
+    color: #FAF2F0;
+}
